@@ -2,7 +2,7 @@ dash
 dash-bootstrap-components
 pandas
 geopandas
-janitor
+pyjanitor
 plotly
 folium
 branca
@@ -12,3 +12,4 @@ fiona
 pyproj
 rtree
 gunicorn
+

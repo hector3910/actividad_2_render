@@ -1,0 +1,13 @@
+dash==2.20.0
+dash-bootstrap-components==1.4.1
+pandas==2.1.0
+geopandas==0.13.0
+janitor==0.23.0
+plotly==5.17.0
+folium==0.17.1
+branca==0.6.1
+matplotlib==3.8.0
+shapely==2.1.1
+fiona==1.9.4
+pyproj==3.6.0
+rtree==1.0.1

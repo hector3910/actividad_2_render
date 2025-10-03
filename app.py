@@ -56,7 +56,7 @@ mapa_col['ipm'] = data_final["ipm_promedio"]
 
 # Inicializamos la app con un tema de Bootstrap
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
-
+server = app.server
 # ---- Sidebar ----
 sidebar = html.Div(
     [
@@ -397,3 +397,4 @@ def render_eda_tab(tab):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
